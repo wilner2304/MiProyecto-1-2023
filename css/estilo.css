@@ -1,0 +1,211 @@
+*{
+padding: 0;
+margin: 0;
+}
+#cabeceraContenido{
+    width: 100%;
+    background-color: #67999A;
+    display: flex;
+}
+#cabeceraImagenNombre{
+    flex: 30%;
+}
+#cabeceraMenu{
+    margin: 10px;
+    text-align: right;
+    flex: 70%;
+}
+#cuerpoContenido{
+    width: 100%;
+    background-color: #D3EE9F;
+    display: flex;
+    padding: 50px 0px 50px 0;
+    
+    
+}
+#imagenNombreRedondo{
+    position: relative;
+    left: 20px;
+    margin-bottom: 20px;
+    z-index: 1000;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: antiquewhite;
+    background-image: url("../img/Recurso\ 8.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:120px;
+    
+}
+#nombreRectangulo{
+    position: absolute;
+    top: 18%;
+    background-color: #013334;
+    padding: 20px 40px;
+    color: white;
+    z-index: 0;
+}
+footer{
+    width: 100%; 
+    
+}
+
+ul li{
+    display: inline;
+    border-right: solid 2px #550101;
+
+    
+}
+ul li:last-child{
+    border-right: none;
+}
+ul li a{
+    color: #550101;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+ul li a:hover{
+    color: #D3EE9F;
+    font-weight: bold;
+
+}
+#logoInicio{
+    padding:2px 0px 0px 25px;
+    background-image: url("../img/Recurso\ 7.png");
+    background-size: 16px;
+    background-repeat:no-repeat;
+}
+#bordeImagen{
+width: 80%;
+padding: 20px;
+text-align: center;
+margin: auto;
+background-color: #D46B68; 
+border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+    width: 100%;
+}
+#cuerpoImagen{
+    flex: 40%;
+}
+#cuerpoDetalle{
+    flex: 60%;
+}
+#detalleDatos{
+   text-align: justify;
+   padding: 30px;
+
+}
+#botones{
+    display: flex;
+    padding: 30px;  
+
+    
+    
+}
+#botonFavorito{
+    flex: 50%;  
+}
+#botonUbicacion{
+    flex: 50%;
+    
+   
+}
+
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+#marcofavorito{
+    
+    background-image: url(/img/Recurso\ 13.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position:left 10px center;
+    padding: 20px 20px 20px 40px;
+    background-color: #CCCCCC;
+    border-radius: 20px;
+    width: 250px; 
+        
+}
+#marcofavorito:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+#marcoUbicacion{
+    
+    background-image: url(/img/Recurso\ 2.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position:left 10px center;
+    border-radius: 20px;
+    padding: 20px 20px 20px 40px;
+    background-color: #CCCCCC;
+    width: 250px;
+}
+.marcoMenufooter{
+    flex: 15%;
+
+}
+#marcoDetalleFooter{
+    flex: 40%;
+    position: relative;
+    animation: mover 5s infinite;
+    border-radius: 5px;
+    padding: 10px;
+}
+@keyframes mover{
+    from {top:0px}
+    to{top:20px;}
+    
+}
+#socialesFooter{
+    flex: 30%;      
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #D3EE9F;
+    display: block;
+    padding: 8px;
+    text-transform: uppercase;
+}
+#footermenu{
+    display:flex;
+    background-color: #7B9E35;
+    padding: 20px;
+     
+}
+
+
+.menufooterredes{
+    display: inline;
+   
+      
+}
+
+.marcoMenufooter a:hover{
+    color: #550101;
+
+}
+
+
+.menufooterredes li{
+    padding: 10px;
+    border: 0px;
+  
+    
+}
+li img{
+    width: 5%;
+    
+}
+li img:hover{
+    width: 6%;
+}
